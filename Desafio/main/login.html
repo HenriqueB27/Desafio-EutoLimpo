@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+</head>
+
+<body onload="loading()"> 
+
+<div class="box-load">
+    <div class="pre"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Desafio EuToLimpo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="container-login">
+            <div class="wrap-login">
+                <form class="login-form">
+                    <span class="login-form-title">
+                        Faça o seu Login
+                    </span>
+                    
+                    <div class="wrap-input margin-top-35 margin-bottom-35">
+                        <input class="input-form" type="email" name="email" autocomplete="off"/>
+                        <span class="focus-input-form" data-placeholder="E-mail"></span>
+                    </div>
+
+                    <div class="wrap-input margin-bottom-35">
+                        <input class="input-form" type="password" name="password" autocomplete="off"/>
+                        <span class="focus-input-form" data-placeholder="Senha"></span>
+                    </div>
+
+                    <div class="container-login-form-btn">
+                        <button class="login-form-btn">Login</button>
+                    </div>
+                    <ul class="login-utils">
+                        <li class="margin-top-8 margin-bottom-8">
+                            <span class="texto1">
+                                Esqueceu sua 
+                            </span>
+                            <a href="senha.html" class="texto2">
+                                Senha?
+                            </a>
+                        </li>
+                        <li class="margin-top-8 margin-bottom-8">
+                            <span class="texto1">
+                                Nao possui conta?
+                            </span>
+                            <a href="cadastro.html" class="texto2">
+                                Criar.
+                            </a>
+
+                        </li>
+                    </ul>
+                </form>
+            </div>
+            <img src="../img/login-img.png" alt="login" width="300" height="300" class="margin-left-50">
+        </div>
+    </div>
+    <script type="text/javascript" src="../js/login.js"></script>
+</body>
+</html>
